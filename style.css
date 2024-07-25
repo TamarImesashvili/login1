@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "myFont";
+    src: url(./NunitoSans_7pt-Light.ttf);
+}
+body {
+    overflow: hidden;
+}
+.box {
+    font-family: "myFont";
+    height: 100%;
+}
+.image{
+    height: 832px;
+    height: 100vh;
+}
+.icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.rightside {
+    display: inline-block;
+    position: absolute;
+    margin-top: 179px;
+    margin-left: 201px;
+}
+.head {
+    display: inline-block;
+    position: absolute;
+    margin-top: 287px;
+    margin-left: 201px;
+    color: rgba(82, 82, 82, 1);
+}
+#button {
+    width: 310px;
+    height: 40px;
+    margin-top: 30px;
+    background: url(google.png); 
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: left 50px center;
+    border: solid 1px rgba(232, 232, 232, 1);
+    border-radius: 5px;
+    color: rgba(130, 130, 130, 1);
+}
+p {
+    font-size: 12px;
+    margin-top: 36px;
+    margin-left: 20px;
+    color: rgba(161, 161, 161, 1);
+}
+#sign {
+    width: 310px;
+    height: 40px;
+    border: solid 1px rgba(222, 210, 217, 1);
+    background: url(envelope.JPG);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: right 10px center;
+    border-radius: 5px;
+    color: rgba(224, 224, 224, 1);
+    padding-left: 10px;
+    outline: none;
+}
+.text {
+    font-size: 28px;
+}
+.text1 {
+    font-size: 12px;
+    color: rgba(82, 82, 82, 1);
+    margin-top: 3px;
+    margin-left: 0;
+}
+.text2 {
+    margin-top: 36px;
+    font-size: 14px;
+    color: rgba(130, 130, 130, 1);
+}
+.text3 {
+    margin-top: 24px;
+    font-size: 14px;
+    color: rgba(130, 130, 130, 1);
+}
+#pass {
+    width: 310px;
+    height: 40px;
+    border: solid 1px rgba(222, 210, 217, 1);
+    background: url(key.JPG);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: right 10px center;
+    border-radius: 5px;
+    color: rgba(224, 224, 224, 1);
+    padding-left: 10px;
+    outline: none;
+}
+input[type=checkbox] {
+    margin-top: 8px;
+    accent-color: rgba(127, 38, 91, 1);
+    width: 8px;
+}
+.check {
+    font-size: 10px;
+}
+.color {
+    margin-top: 8px;
+    text-align: end;
+    color: rgba(127, 38, 91, 1);
+    font-size: 10px;
+    padding-left: 110px;
+}
+#login {
+    width: 310px;
+    height: 40px;
+    border: solid 1px rgba(127, 38, 91, 1);
+    background-color: rgba(127, 38, 91, 1);
+    border-radius: 6px;
+    outline: none;
+    color: rgba(255, 255, 255, 1);
+}
+#peri {
+    color:  rgba(127, 38, 91, 1);
+    text-decoration: none;
+}
+#span {
+    display: flex;
+    justify-content: space-between;
+}
+.p-tag {
+    display: flex;
+}
+.flex {
+    display: flex;
+    align-items: baseline;
+}
